@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1200px;    
+    font-family: 'Roboto', sans-serif;    
+}
+
+/*First box*/
+.container .one {
+    background-color: #1f2937;
+}
+/* First box*/
+
+/* navbar  on first box*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .one nav h2 {
+    color: #f9faf8;
+}
+
+.container .one nav ul {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.container .one nav ul li a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+/* navbar on first box*/
+
+/* first box content */
+
+
+
+
